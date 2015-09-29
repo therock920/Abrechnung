@@ -30,7 +30,6 @@ public class Kassenzettelerfassen extends Activity {
             @Override
             public void onClick(View v) {
                 Intent returnintent = new Intent(Kassenzettelerfassen.this,MainActivity.class);
-                //Intent returnintent = getIntent();
                 returnintent.putExtra("erfasser", e_erfasser.getText().toString());
                 returnintent.putExtra("zweck", e_zweck.getText().toString());
                 returnintent.putExtra("datum", e_datum.getText().toString());
