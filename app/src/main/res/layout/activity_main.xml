@@ -24,7 +24,7 @@
         s<Button
             android:id="@+id/button2"
             android:layout_width="150dp"
-            android:text="@string/kassenzettel_loeschen"
+            android:text="VCS Label Test"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_below="@id/listView"/>
