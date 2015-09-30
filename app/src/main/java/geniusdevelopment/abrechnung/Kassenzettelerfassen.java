@@ -34,7 +34,6 @@ public class Kassenzettelerfassen extends Activity {
                 returnintent.putExtra("zweck", e_zweck.getText().toString());
                 returnintent.putExtra("datum", e_datum.getText().toString());
                 returnintent.putExtra("saldo", e_saldo.getText().toString());
-                Log.d("inside", "inside");
                 if(getParent() == null) {
                     setResult(RESULT_OK, returnintent);
                 } else {
